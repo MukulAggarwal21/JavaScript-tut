@@ -25,12 +25,22 @@
 
 //EventListeners
 
-   function attachEventListners(){
-      let count = 0;
- document.getElementById("ClickMe")
- .addEventListener("click" , function xyz(){
-   console.log("Button Clicked " , count++);
- });
-   }
+//    function attachEventListners(){
+//       let count = 0;
+//  document.getElementById("ClickMe")
+//  .addEventListener("click" , function xyz(){
+//    console.log("Button Clicked " , count++);
+//  });
+//    }
 
-attachEventListners();
+// attachEventListners();
+
+//Higher order function 
+function x(){
+  console.log("Namaste ")
+}
+
+function y(x){
+  x()
+}
+//Here Y is Higher Order Function
